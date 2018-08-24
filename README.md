@@ -17,6 +17,7 @@ Behind the scenes, this library takes a different approach with each platform:
 - **Android**: A native implementation, which provides scheduling on top of
   RN's built-in [Headless JS](https://facebook.github.io/react-native/docs/headless-js-android.html)
   (Android only).
+  - Target SDK Version: 26
   - Min API level: 16 (Android 4.1).
 - **iOS**: A proxy around [react-native-background-fetch](https://github.com/transistorsoft/react-native-background-fetch),
   which uses the iOS-specific `Background Fetch` technique.
